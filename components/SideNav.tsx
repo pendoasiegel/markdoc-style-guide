@@ -4,10 +4,32 @@ import Link from 'next/link';
 
 const items = [
   {
-    title: 'Get started',
-    links: [{href: '/docs', children: 'Overview'}],
+    title: ['Guides'],
+    links: [{href: '/docs/brand', children: 'Brand'},
+            {href: '/docs/dark', children: 'Dark'},
+            {href: '/docs/IGST', children: 'IGST'},
+            {href: '/docs/sidebar', children: 'Sidebar'},
+            {href: '/docs/style-guides', children: 'Style Guides'},
+            {href: '/docs/style-incident', children: 'Style Incident'},
+            {href: '/docs/style-kb', children: 'Style-KB'},
+            {href: '/docs/style-ux', children: 'Style-UX'},
+            {href: '/docs/voice-and-tone', children: 'Voice and Tone'}]
   },
+  // {
+  //   title: 'Guide 2',
+  //   links: [{href: '/docs/brand', children: 'Brand'},
+  //           {href: '/docs/dark', children: 'Dark'}]
+  // }
 ];
+
+// const moreitems = [
+//   {
+//   title: 'Guides',
+//   links: [{href: '/docs/brand', children: 'Brand'},
+//           {href: '/docs/dark', children: 'Dark'},
+//           {href: '/docs/IGST', children: 'IGST'}]
+//   }
+// ];
 
 export function SideNav() {
   const router = useRouter();
@@ -64,5 +86,56 @@ export function SideNav() {
         `}
       </style>
     </nav>
+    // <nav className="sidenav">
+    // {moreitems}.map((moreitems) => (
+    //   <div key={moreitems.title}>
+    //     <span>{moreitems.title}</span>
+    //     <ul className="flex column">
+    //       {moreitems.links.map((link) => {
+    //         const active = router.pathname === link.href;
+    //         return (
+    //           <li key={link.href} className={active ? 'active' : ''}>
+    //             <Link {...link}>
+    //               <a href={link.href}>{link.children}</a>
+    //             </Link>
+    //           </li>
+    //         );
+    //       })}
+    //     </ul>
+    //   </div>
+    // ))}
+    //     <style jsx>
+    //       {`
+    //         nav {
+    //           position: sticky;
+    //           top: var(--top-nav-height);
+    //           height: calc(100vh - var(--top-nav-height));
+    //           flex: 0 0 auto;
+    //           overflow-y: auto;
+    //           padding: 2.5rem 2rem 2rem;
+    //           border-right: 1px solid var(--border-color);
+    //         }
+    //         span {
+    //           font-size: larger;
+    //           font-weight: 500;
+    //           padding: 0.5rem 0 0.5rem;
+    //         }
+    //         ul {
+    //           padding: 0;
+    //         }
+    //         li {
+    //           list-style: none;
+    //           margin: 0;
+    //         }
+    //         li a {
+    //           text-decoration: none;
+    //         }
+    //         li a:hover,
+    //         li.active > a {
+    //           text-decoration: underline;
+    //         }
+    //       `}
+    //     </style>
+    //   </nav>
   );
 }
