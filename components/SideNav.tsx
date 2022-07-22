@@ -4,22 +4,23 @@ import Link from 'next/link';
 
 const items = [
   {
-    title: ['Guides'],
-    links: [{href: '/docs/brand', children: 'Brand'},
-            {href: '/docs/dark', children: 'Dark'},
-            {href: '/docs/IGST', children: 'IGST'},
-            {href: '/docs/sidebar', children: 'Sidebar'},
-            {href: '/docs/style-guides', children: 'Style Guides'},
-            {href: '/docs/style-incident', children: 'Style Incident'},
-            {href: '/docs/style-kb', children: 'Style-KB'},
-            {href: '/docs/style-ux', children: 'Style-UX'},
-            {href: '/docs/voice-and-tone', children: 'Voice and Tone'}]
+    title: ['Writing Guidance'],
+    links: [{href: '/docs/overview', children: 'Overview'},
+            {href: '/docs/brand', children: 'Brand Writing Style'},
+            {href: '/docs/voice-and-tone', children: 'Product Voice and Tone'},
+            {href: '/docs/style-ux', children: 'UX Writing'},
+            {href: '/docs/style-incident', children: 'Incident Comms'}]
   },
-  // {
-  //   title: 'Guide 2',
-  //   links: [{href: '/docs/brand', children: 'Brand'},
-  //           {href: '/docs/dark', children: 'Dark'}]
-  // }
+ {
+   title: 'Templates',
+   links: [{href: '/docs/style-kb', children: 'Help Center Articles'},
+           {href: '/docs/style-guides', children: 'Guide Design'}]
+ },
+ {
+   title: 'Appendix',
+   links: [{href: '/docs/appx-troubleshooting', children: 'TS Troubleshooting'},
+           {href: '/docs/appx-pfsuinstallchecklist', children: 'PFSU Install Checklist'}]
+ }
 ];
 
 // const moreitems = [

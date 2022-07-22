@@ -1,5 +1,5 @@
 ---
-title: Styleguide
+title: Pendo Prooduct Style Guide
 description: This is a pendo styleguide
 ---
 
