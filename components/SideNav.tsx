@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const items = [
   {
-    title: ['Writing Guidance'],
+    title: 'Writing Guidance',
     links: [{href: '/docs/overview', children: 'Overview'},
             {href: '/docs/brand', children: 'Brand Writing Style'},
             {href: '/docs/voice-and-tone', children: 'Product Voice and Tone'},
