@@ -1,3 +1,8 @@
+---
+title: Pendo | Overview
+description: Pendo style guide overiew
+---
+
 # Product Style Guide
 
 Many of the specific writing rules in the [Pendo Brand Voice and Style Guide](https://docs.google.com/presentation/d/1NA5n3Ac5lWPzANcUE7vVbaYnEcP1fDpkNK6RB7fpFlQ/edit#slide=id.g10f0d2d600c_0_1) and Pendo's guidance for Brand Copywriting are good practice for help documentation and UX writing.

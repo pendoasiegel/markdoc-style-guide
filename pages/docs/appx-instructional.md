@@ -1,3 +1,8 @@
+---
+title: Pendo | Instructional Articles
+description: Pendo style guide informational articles section
+---
+
 This page provides a template for articles written to help readers complete a task. These articles typically include:
 
 -   Context for how the task fits into the overall workflow.

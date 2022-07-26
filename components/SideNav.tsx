@@ -22,6 +22,8 @@ const items = [
            {href: '/docs/appx-informational', children: 'General Template - Informational Article'},
            {href: '/docs/appx-instructional', children: 'General Template - Instructional Article'},
            {href: '/docs/appx-troubleshooting', children: 'General Template - Troubleshooting Article'},
+           {href: '/docs/appx-slideout', children: 'General Template - Slideout Guide'},
+           {href: '/docs/appx-supportdeflectionguide', children: 'TS - Support Deflection Guides'},
            {href: '/docs/appx-pfsuinstallchecklist', children: 'PFSU Install Checklist Guides'}]
  }
 ];

@@ -1,6 +1,6 @@
 ---
 title: Pendo Product Style Guide
-description: This is a pendo style guide
+description: This is a Pendo product style guide which contains instructions for creating content across the Pendo product experience.
 ---
 
 # Pendo Product Style Guide

@@ -1,3 +1,8 @@
+---
+title: Pendo | Brand Style
+description: Pendo Brand style guide
+---
+
 # Brand Guidance #
 Our Brand team provides foundational guidance on how to represent Pendo in online content. These guidelines are the touchpoint that we start from as product writers. We enhance and add to these guidelines as we build out product content in UX writing, guides, and help center articles. We don't deviate from these guidelines unless it's necessary to properly address a user in context.
 

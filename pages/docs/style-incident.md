@@ -1,3 +1,8 @@
+---
+title: Pendo | Incident Communication
+description: Pendo style guide incident communications
+---
+
 # Incident Comms Playbook
 Pendo has a deliberate response to incidents that’s proportional to the severity. The most severe incidents have an incident commander and senior leadership managing the fix and best course of action for the response. Tech writing is pulled in to document internal and external incident communications if needed. All other aspects of incident response are handled by teams other than ProdOps, identifying the issue, resolving the issue, determining customer impact, sending out customer comms, and managing responses are not tech writing’s responsibility. We need to capture what happened for internal situational awareness and inform customers without exacerbating the situation.
 

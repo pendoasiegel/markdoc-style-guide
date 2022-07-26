@@ -1,3 +1,8 @@
+---
+title: Pendo | Content Types
+description: Pendo style guide types of content section
+---
+
 The structure of individual articles depends on the content type and category. Is it an overview? Is the information more practical, such as how-to guidance or troubleshooting?
 
 ## Types of content ##

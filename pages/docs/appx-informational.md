@@ -1,3 +1,8 @@
+---
+title: Pendo | Informational Articles
+description: Pendo style guide informational articles section
+---
+
 Informational content educates the user on a specific system, function, or feature they aren't familiar with, and provides an overview of features or options available within it. Informational articles don't describe problem-solving steps or get into technical information.
 
 Often, information content will be included within an instructional article to provide the information needed, in context, to help users complete a task or to illustrate a workflow. This also helps eliminate duplication and prepares content to scale as the product evolves.

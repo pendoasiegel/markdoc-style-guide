@@ -1,3 +1,8 @@
+---
+title: Pendo | Help Center Article
+description: Pendo style guide general help center article template
+---
+
 This is the basic styling and structure of a help center article.  Historically the Pendo Help Center hasn't had any consistent universal content structure. This is the first step to fix that. The main priority is always to provide the best education content to our users and strict adherence to a template shouldn't be a blocker to that. But consistent structure and depth of information provides a predictable, quality experience that builds trust and confidence in our users.
 
 ## Styling ##

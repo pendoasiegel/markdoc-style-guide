@@ -1,3 +1,8 @@
+---
+title: Pendo | Voice and Tone
+description: Pendo style guide product voice and tone guidance
+---
+
 # Voice and Tone
 
 The general guidelines in the [Pendo Brand Voice and Style Guide](https://docs.google.com/presentation/d/1NA5n3Ac5lWPzANcUE7vVbaYnEcP1fDpkNK6RB7fpFlQ/edit#slide=id.g10f0d2d600c_0_1) are that we should sound:

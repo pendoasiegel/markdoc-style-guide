@@ -1,3 +1,8 @@
+---
+title: Pendo | Troubleshooting Article
+description: Pendo style guide troubleshooting article template
+---
+
 This page provides a template for writing troubleshooting content. Troubleshooting articles describe issue diagnosis and problem-solving steps for finding and fixing problems that the customer might encounter.
 
 ## Structure ##
