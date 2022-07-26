@@ -20,8 +20,8 @@ There are a variety of approaches to present the guide to the user at the right 
 Several activation options are available. Choose the one that provides the best user experience. It's tempting to use automatic activation but automatic guides negatively impact the user experience and are closed reflexively when presented at the wrong time.
 
 #### Badge activated ####
-1. Use the info "i" badge. 
-![Info badge](img/infoicon.png)
+1. Use the info "i" badge.
+![Info badge](docs/img/infoicon.png)
 2. Place it "inline right" on or near the feature that the user is interacting with.
 
 #### Slideout Activated ####
