@@ -21,7 +21,9 @@ Several activation options are available. Choose the one that provides the best 
 
 #### Badge activated ####
 1. Use the info "i" badge.
+{% image width=25 %}
 ![Info badge](https://raw.githubusercontent.com/pendoasiegel/markdoc-style-guide/main/pages/docs/img/infoicon.png)
+{% /image %}
 2. Place it "inline right" on or near the feature that the user is interacting with.
 
 #### Slideout Activated ####
