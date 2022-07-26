@@ -14,15 +14,15 @@ const items = [
  {
    title: 'Templates',
    links: [{href: '/docs/template-kb', children: 'Help Center Articles'},
-           {href: '/docs/template-guides', children: 'Guide Design'}]
+           {href: '/docs/template-guides', children: 'Guide Design'},
+           {href: '/docs/appx-typesofcontent', children: 'Content Types'},
+           {href: '/docs/appx-informational', children: 'Informational Article'},
+           {href: '/docs/appx-instructional', children: 'Instructional Article'},
+           {href: '/docs/appx-troubleshooting', children: 'Troubleshooting Article'}]
  },
  {
    title: 'Appendix',
-   links: [{href: '/docs/appx-typesofcontent', children: 'General Templates and Writing Guidelines'},
-           {href: '/docs/appx-informational', children: 'General Template - Informational Article'},
-           {href: '/docs/appx-instructional', children: 'General Template - Instructional Article'},
-           {href: '/docs/appx-troubleshooting', children: 'General Template - Troubleshooting Article'},
-           {href: '/docs/appx-slideout', children: 'General Template - Slideout Guide'},
+   links: [{href: '/docs/appx-slideout', children: 'Slideout Guide'},
            {href: '/docs/appx-supportdeflectionguide', children: 'TS - Support Deflection Guides'},
            {href: '/docs/appx-pfsuinstallchecklist', children: 'PFSU Install Checklist Guides'}]
  }
