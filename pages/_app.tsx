@@ -13,8 +13,8 @@ import '../public/globals.css'
 
 import type { AppProps } from 'next/app'
 
-const TITLE = 'Markdoc';
-const DESCRIPTION = 'A powerful, flexible, Markdown-based authoring framework';
+const TITLE = 'Pendo Product Style Guide';
+const DESCRIPTION = 'This is a pendo style guide';
 
 function collectHeadings(node, sections = []) {
   if (node) {
@@ -69,7 +69,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <TopNav>
-        <Link href="/docs">Docs</Link>
+        // <Link href="/docs">Docs</Link>
       </TopNav>
       <div className="page">
         <SideNav />
@@ -81,7 +81,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <style jsx>
         {`
           .page {
-            position: fixed; 
+            position: fixed;
             top: var(--top-nav-height);
             display: flex;
             width: 100vw;
