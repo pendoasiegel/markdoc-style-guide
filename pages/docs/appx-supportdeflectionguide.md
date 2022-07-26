@@ -21,7 +21,7 @@ Several activation options are available. Choose the one that provides the best 
 
 #### Badge activated ####
 1. Use the info "i" badge.
-![Info badge](/img/info-icon.png)
+![Info badge](img/info-icon.png)
 2. Place it "inline right" on or near the feature that the user is interacting with.
 
 #### Slideout Activated ####
