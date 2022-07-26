@@ -18,8 +18,9 @@ const items = [
  },
  {
    title: 'Appendix',
-   links: [{href: '/docs/appx-troubleshooting', children: 'TS Troubleshooting'},
-           {href: '/docs/appx-pfsuinstallchecklist', children: 'PFSU Install Checklist'}]
+   links: [{href: '/docs/appx-typesofcontent', children: 'General Templates and Writing Guidelines'},
+           {href: '/docs/appx-troubleshooting', children: 'TS Troubleshooting Article'},
+           {href: '/docs/appx-pfsuinstallchecklist', children: 'PFSU Install Checklist Guides'}]
  }
 ];
 
