@@ -13,13 +13,15 @@ const items = [
   },
  {
    title: 'Templates',
-   links: [{href: '/docs/style-kb', children: 'Help Center Articles'},
-           {href: '/docs/style-guides', children: 'Guide Design'}]
+   links: [{href: '/docs/template-kb', children: 'Help Center Articles'},
+           {href: '/docs/template-guides', children: 'Guide Design'}]
  },
  {
    title: 'Appendix',
    links: [{href: '/docs/appx-typesofcontent', children: 'General Templates and Writing Guidelines'},
-           {href: '/docs/appx-troubleshooting', children: 'TS Troubleshooting Article'},
+           {href: '/docs/appx-informational', children: 'General Template - Informational Article'},
+           {href: '/docs/appx-instructional', children: 'General Template - Instructional Article'},
+           {href: '/docs/appx-troubleshooting', children: 'General Template - Troubleshooting Article'},
            {href: '/docs/appx-pfsuinstallchecklist', children: 'PFSU Install Checklist Guides'}]
  }
 ];
