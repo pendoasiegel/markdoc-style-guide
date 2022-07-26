@@ -13,7 +13,7 @@ Teams at Pendo are continuously innovating and developing new strategies for eng
 
 
 
-<!--- {% callout %}
+{% callout %}
 if you want to do this shadowed section use callout
 {% /callout %}
 
@@ -23,5 +23,4 @@ The toc on the right side navigates to the different sections of the page based 
 
 ### Add docs
 
-To add files add them to the docs folder. To add them to the nav bar on the left enter them in in componenets/SideNav.tsx
---->
+To add files add them to the docs folder. To add them to the nav bar on the left enter them in in componenets/SideNav.ts
