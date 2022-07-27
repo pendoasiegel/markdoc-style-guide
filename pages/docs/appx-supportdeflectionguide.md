@@ -20,10 +20,8 @@ There are a variety of approaches to present the guide to the user at the right 
 Several activation options are available. Choose the one that provides the best user experience. It's tempting to use automatic activation but automatic guides negatively impact the user experience and are closed reflexively when presented at the wrong time.
 
 #### Badge activated ####
-1. Use the info "i" badge.
-{% image width=25 %}
 ![Info badge](https://raw.githubusercontent.com/pendoasiegel/markdoc-style-guide/main/pages/docs/img/infoicon.png)
-{% /image %}
+1. Use the info "i" badge.
 2. Place it "inline right" on or near the feature that the user is interacting with.
 
 #### Slideout Activated ####
