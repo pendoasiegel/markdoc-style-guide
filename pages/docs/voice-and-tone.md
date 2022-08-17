@@ -34,30 +34,33 @@ On top of this, we aim to adopt our own *tone* of voice in the Help Center.
 
 Voice captures the persona behind the content or its “character”. Voice should be delivered with consistency across content. If your personality or messaging change too much or too often, it’s harder for readers to understand the purpose of the content or to trust it.
 
-Tone captures the “attitude” with which we express our content. This is similar to the difference between “traits” and “states” in human psychology. You can be a friendly person (a trait), but also exhibit more or less friendliness (as a more transient state) depending on the situation or who you’re interacting with. In this example, “trait” corresponds with “voice”, and “state” corresponds with “tone”.
+Tone captures the “attitude” with which we express our content. This is similar to the difference between “traits” and “states” in human psychology. You can be a friendly person (a trait), but also exhibit more or less friendliness (as a transient state) depending on the situation or who you’re interacting with. In this example, “trait” corresponds with “voice”, and “state” corresponds with “tone”.
 
 ## Our tone of voice
 
-In help documentation, it’s particularly important to avoid fatigue and frustration. We want the content to be as useful and as understandable as possible for getting the job done – as quickly as possible. To this end, we aim to write for the immediate goals of the reader, in plain English, and with short, direct sentences.
+Our tone of voice is based on the purpose of content and the intended audiences.
 
-In sum, we aim to:
+In help documentation, it’s particularly important to avoid fatigue and frustration. We want the content to be as useful and as understandable as possible for getting the job done – as quickly as possible. To this end, we aim to write for the immediate goals of the reader, in plai (American) English, and with short, direct sentences. This helps us meet three high-level goals for our tone of voice:
 
-*  Refer directly to the reader.
-*  Focus on what matters to the reader.
-*  Write only what the reader needs to know to meet their goals.
-*  Engage in “lean writing” to get to the point, quicker.
-*  Use the active voice wherever possible.
-*  Focus on the impact for the reader.
-*  Suggest next steps for the reader.
-*  Hone in on the user’s actions.
-*  Use more verbs and fewer nouns.
-*  Introduce concepts in the order in which the reader deals with them.
+**Be clear**
 
-Our tone of voice is based on the purpose of content and the intended audiences. The high-level goals outlined for tone of voice include:
+* Direct
+* Simple
+* Precise
+* Concise
 
-*  Be clear (direct, simple, precise, and concise)
-*  Be human (conversational, personal, positive, and inclusive)
-*  Be useful (professional, user-centric, and action-focused)
+**Be human**
+* Conversational
+* Personal
+* Positive
+* Inclusive
+
+**Be useful**
+
+* Objective
+* User-centric
+* Action-oriented
+* Goal-focused
 
 Some of the guidelines for meeting these goals overlap. For example, using the second person (“you”) makes it easier to write in the active voice (be clear), helps establish a conversational style (be human), and makes the content directly relevant to the reader (be useful).
 
@@ -67,7 +70,6 @@ Keep sentences short and simple with lean writing principles. Reduce wordiness a
 
 Other tips for writing clearly include:
 
-*  Get to the point quickly.
 *  Use plain English.
 *  Use simple words where possible.
 *  Break up content to make it more scannable.
@@ -76,44 +78,50 @@ Other tips for writing clearly include:
 
 Avoid:
 
-*  Culture-specific references, including idioms, colloquial language, regionalisms, and slang.
+*  Long and complicated sentences.
+*  Marketing and sales language.
+*  Technical jargon.
+*  Culture-specific references (idioms, colloquial language, regionalisms, and slang).
 *  Phrases with indirect or ironic meaning.
 *  Humour, which can be misinterpreted or irritating.
+* Ambiguous terms.
 
 ### Be human
 
-Keep your style informal and natural, even if relaying technical information to more tech-savvy users.
+Keep your style informal and natural, even if relaying technical information to more tech-savvy users. You can write informally without losing the objectivity and credibility needed for technical documentation. Professional is not the same as formal.
 
-*  Use everyday language.
-*  Be direct and conversational
+*  Use simple, everyday language.
+*  Be direct and conversational.
+*  Use the second person ("you").
 *  Talk *to* users, not at them.
 *  Adopt an informal and personal style.
 *  Be friendly and positive.
+*  Use common contractions.
 
-|**Guidance** | **Example** |
-|---|---|
-|Choose short, simple, everyday words over long, formal, or complicated words.| “Help” instead of “assistance”, “let” instead of “enable”, “use” instead of “utilise”, “more” instead of “further”.|
-|Use contractions to make content easier to read and less formal. | “Can’t” instead of “cannot” or “can not”, “you’re” instead of “you are”, “it’s” instead of “it is”. |
-|Address readers directly to establish a personal tone. Use the second person in sentences.| “You” instead of “the administrator”, “the customer”, or “the user”.|
-|Look out for words like “can’t” and “don’t” to re-frame sentences more positively.|“Sign in again to reconnect” instead of “You can’t reconnect until you sign in again”.|
+Avoid:
+
+* Being too informal.
+* Being patronizing.
+* Biased language.
+* Overusing niceties such as please, thank you, and sorry.
 
 ### Be useful
 
-Make your content about the reader or user. Make it obvious why content is relevant to the reader or user, and how they can act on it.
+Make it obvious why content is relevant to the reader or user, and how they can act on it. You can do this by starting sentences with a verb and using the imperative mood, such as "Access you emails through the browser", instead of "We enable users to access emails through the browser".
 
-**Refer directly to the reader**
+Make your content about the reader or user. Refer directly to the reader and hone in on the user’s actions.
 
-*  Understand what the reader or user needs to know to meet their goals.
-*  Use the second person (“you”) in sentences about the reader or user.
-*  Use the active (as opposed to passive) voice, where possible.
-*  Focus on the impact for the reader or user.
-*  Suggest next steps for the reader or user.
+* Use the active voice, where the subject of the sentence performs the action (subject + verb + object construction).
+* Get to the point.
+* Focus on user goals.
+* Suggest next steps.
+* Use present tense.
+* Use more verbs and fewer nouns.
+* Write objectively.
+* Focus on what the user can do rather than the state of the system
 
-**Hone in on the reader's actions**
+Avoid:
 
-|**Guidance** | **Example** |
-|---|---|
-|Try starting sentences with a verb and using imperative sentences.| “Access your emails through the browser” rather than “We enable users to access emails through a browser.” |
-|Focus on what the user can do, rather than the state of the system. | “If you get no output, investigate the input” rather than “If you get no output, there is a serious issue with the input.” |
-|Use more verbs and fewer nouns. | “If you decide to…” instead of “If you make a decision to…”; “The system analysed…” instead of “The system conducted an analysis of…” |
-|Write in the active voice, where the subject of the sentence performs the action (subject + verb + object construction). | “You can send emails from your phone”, rather than “Emails *can be sent from your phone*”. |
+* Blaming the reader or user.
+* Redundancy and repetition.
+* Taking a system-centric approach to communicating with users (“Unexpected item in bagging area”).

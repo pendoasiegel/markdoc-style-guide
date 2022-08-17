@@ -8,6 +8,7 @@ const items = [
     links: [{href: '/docs/overview', children: 'Overview'},
             {href: '/docs/brand', children: 'Brand Writing Style'},
             {href: '/docs/voice-and-tone', children: 'Product Voice and Tone'},
+            {href: '/docs/prodops-style-guide', children: 'ProdOps Style Guide'},
             {href: '/docs/style-ux', children: 'UX Writing'},
             {href: '/docs/style-incident', children: 'Incident Comms'}]
   },
