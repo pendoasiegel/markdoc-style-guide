@@ -12,18 +12,25 @@ const items = [
             {href: '/docs/style-ux', children: 'UX Writing'},
             {href: '/docs/style-incident', children: 'Incident Comms'}]
   },
+  {
+  title: 'Guide Templates',
+  links: [{href: '/docs/temp-guides', children: 'Guide Design'},
+          {href: '/docs/temp-slideout', children: 'Slideout Guide'},
+          {href: '/docs/temp-edutooltip', children: 'Education Tooltip'}]
+ },
  {
-   title: 'Templates',
-   links: [{href: '/docs/template-kb', children: 'Help Center Articles'},
-           {href: '/docs/template-guides', children: 'Guide Design'},
-           {href: '/docs/appx-typesofcontent', children: 'Content Types'},
-           {href: '/docs/appx-informational', children: 'Informational Article'},
-           {href: '/docs/appx-instructional', children: 'Instructional Article'},
-           {href: '/docs/appx-troubleshooting', children: 'Troubleshooting Article'}]
+   title: 'Article Templates',
+   links: [{href: '/docs/temp-typesofcontent', children: 'Content Types'},
+           {href: '/docs/temp-kb', children: 'Help Center Articles'},
+           {href: '/docs/temp-informational', children: 'Informational Article'},
+           {href: '/docs/temp-instructional', children: 'Instructional Article'},
+           {href: '/docs/temp-troubleshooting', children: 'Troubleshooting Article'}]
  },
  {
    title: 'Appendix',
-   links: [{href: '/docs/appx-slideout', children: 'Slideout Guide'},
+   links: [{href: '/docs/appx-eduslideout', children: 'Education Slideout Guide'},
+           {href: '/docs/appx-troubleslideout', children: 'Troubleshooting Slideout Guide'},
+           {href: '/docs/appx-bestslideout', children: 'Best Practices Slideout Guide'},
            {href: '/docs/appx-supportdeflectionguide', children: 'TS - Support Deflection Guides'},
            {href: '/docs/appx-pfsuinstallchecklist', children: 'PFSU Install Checklist Guides'}]
  }
