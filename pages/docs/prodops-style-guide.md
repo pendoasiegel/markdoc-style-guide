@@ -29,7 +29,11 @@ The effectiveness of documentation can be enhanced with good layout, focusing on
 
 ### Headings and titles
 
-Write eheadings and titles in sentence-case. Sentence-case is easier to read and is especially useful in heading and titles titles because it helps to disambiguate generic terms from proper nouns, such as the difference between “feedback” submitted by end-users and “Feedback” the product.
+Guidelines for both headings and titles include the following.
+
+Write headings and titles in sentence-case. Sentence-case is easier to read and is especially useful in heading and titles titles because it helps to disambiguate generic terms from proper nouns, such as the difference between “feedback” submitted by end-users and “Feedback” the product.
+
+State the user’s goals and actions in headings and titles; don’t just name the feature or system. For example, "Manage requests in the Browse page", instead of "The Browse page".
 
 Don’t use end-punctuation (. : ! ?) in headings and titles.
 
@@ -62,9 +66,9 @@ For conceptual headings, use a noun phrase that doesn't start with an *-ing* ver
 
 ### Links
 
-Write unique, descriptive link text that makes sense without the surrounding text.
+Links imbedded in the body, where select words in a normal sentence are hyperlinked to articles, requires the reader to digest the entire paragraph or sentence to infer what the link provides based on its context.
 
-Avoid phrases such as “this article” or “click here”, and avoid wiki-style links. Links imbedded in the body, where select words in a normal sentence are hyperlinked to articles, requires the reader to digest the entire paragraph or sentence to infer what the link provides based on its context.
+Write unique, descriptive link text that makes sense without the surrounding text. Avoid phrases such as “this article” or “click here”, and avoid wiki-style links.
 
 Other guidelines for links include:
 
@@ -145,8 +149,7 @@ You can also avoid redundancy and get straight to the point with your sentence s
 |Avoid grammatical expletives (words that add emphasis by delaying the subject), such as “it is” or “there are”.|“The list has six items”, rather than “There are six items in the list".|
 |Use more verbs and fewer nouns.|“If you decide to...", rather than "If you make the decision to...".|
 |Avoid buried verbs (nominalization): using a noun and a verb when a verb alone would portray the meaning. |“Follow the guidelines for testing your software”, rather than “Follow the guidelines for *performing a test* of your software”. Turning the word “test” into an action removed the need for the word “performing”.|
-|Write imperative sentences. | “If you need further help, ~~you can~~ contact the Support Team”.   |
-
+|Write imperative sentences. | “If you need further help, ~~you can~~ contact the Support Team”.|
 
 ### Reduce wordiness
 

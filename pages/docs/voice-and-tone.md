@@ -93,7 +93,6 @@ Keep your style informal and natural, even if relaying technical information to 
 *  Use simple, everyday language.
 *  Be direct and conversational.
 *  Use the second person ("you").
-*  Talk *to* users, not at them.
 *  Adopt an informal and personal style.
 *  Be friendly and positive.
 *  Use common contractions.
