@@ -3,10 +3,12 @@ title: Pendo | Help Center Article
 description: Pendo style guide general help center article template
 ---
 
-This is the basic styling and structure of a help center article.  Historically the Pendo Help Center hasn't had any consistent universal content structure. This is the first step to fix that. The main priority is always to provide the best education content to our users and strict adherence to a template shouldn't be a blocker to that. But consistent structure and depth of information provides a predictable, quality experience that builds trust and confidence in our users.
+This is the basic styling and structure of a Help Center article.
 
-## Styling ##
-### Text Formatting ###
+Historically the Pendo Help Center hasn't had any consistent universal content structure. This is the first step to fix that. The priority is to provide the best education content to our users and strict adherence to a template shouldn't be a blocker to that. Consistent structure and depth of information provides a predictable, quality experience that builds trust and confidence.
+
+## Text Formatting
+
 `[h2]` - Section headers
 
 `[h3]` - Subsection headers
@@ -16,72 +18,109 @@ This is the basic styling and structure of a help center article.  Historically 
 `[p]` - Content body/everything else
 
 
-### Lists ###
-Bulleted lists for Requirements and simple lists describing stuff.
-Create numbered lists manually. Never use structured numbered lists. Zendesk is bad at controlling formatting for numbered lists.
-Try not to use complete sentences in bulleted lists. Items in a bulleted list shouldn’t end with any punctuation and punctuation within each list item should be minimal.
+## Lists
 
-### Screenshots ###
-All screenshots get a **1px solid color #C2D1D9 border** otherwise they blend into the background.
+Use bulleted lists for **Requirements** and for simple lists describing stuff. Reserve numbered lists for [procedural instructions](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/procedural-instructions). Create numbered lists manually because Zendesk is bad at controlling formatting for numbered lists.
+
+For more guidance, see [Lists](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/prodops-style-guide#lists) in the [ProdOps Style Guide](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/prodops-style-guide)
+
+## Screenshots
+
+All screenshots get a subtle grey border to prevent them from blending into the background. You can use SnagIt to do this.
 
 **Hero image**
-For context and visual interest in Overview, Understand the Data, and maybe starting a workflow section
-* Big, 500-550px wide, full width is ok for full screen screenshots
-* Centered
-* Interesting, lots of fake data, GIFs are cool too
+
+For context and visual interest in the overview, to understand the data, and or at the start of a workflow section:
+
+* Big; 500-550px wide; full width is ok for full screen screenshots.
+* Centered.
+* Interesting (lots of fake data; GIFs are cool too).
 
 **For instructions**
-* Smaller, 300-350px, this width plays nicely with the Resource Center and nothing we’re showing in instructions should be that big
-* Left justified to be inline with instructions
-* Minimal, show the thing the user needs to interact with for that step. The entire set of instructions should provide all the necessary context.
 
-**NEVER EVER EVER EVER SHOW CUSTOMER DATA**
-* Don’t use pendo-internal for screenshots.
-* If you literally can’t get a screenshot anywhere else (like dev) and you can’t wait for a feature to push to prod to get a screenshot in a demo environment, talk to Adam Siegel
+* Smaller; 300-350px; this width plays nicely with the Resource Center and nothing we’re showing in instructions should be too big.
+* Left justified to be inline with instructions.
+* Minimal; show what the user needs to interact with for that step. The entire set of instructions should provide all the necessary context.
+
+For consistency, accessibility, and privacy, we recommend that you us SnagIt to do the following with images you want to include in help docs:
+
+* Use PNG
+* For annotations, use:
+  * Pendo Pink (R: 236, G:32, B:89)
+  * A 5 pt line width
+  * A square or rectangle with an empty fill
+  * A subtle shadow so that people can see it’s not a part of the UI in the screenshot
+* Include a border around screenshots to prevent screenshots from merging into the background of your article, for examaple:
+  - Medium grey (R:194, G, 209; B: 217)
+  - A 1 pt line width
+* [Optional] If including a screenshot of a pop-up window or modal, without the greyed-out UI in the background, add a shadow to indicate that this is a layer on top of the main UI page, for example:
+  - Black at 50% opacity
+  - Shadow location in the bottom-right
+  - A 5 pt offset
+  - A 5 pt blur
+* **IMPORTANT:** NEVER EVER SHOW CUSTOMER DATA. Don’t use pendo-internal for screenshots. Instead use:
   * Demo Experience
   * Acme Co (Spencer’s sub)
   * Dev/Lookaside
-  * Inspect element and change details in dev tools as needed
+* If you can’t get a screenshot anywhere else (like dev) and you can’t wait for a feature to push to prod to get a screenshot in a demo environment, blur or remove sensitive information, including (but not limited to):
+  * User names and passwords, unless these are dummy ones
+  * IP addresses
+  * URLs
+  * QR codes
+  * Certificate specifics, such as hashes
+  * WSDL
+  * Pendo-internal and customer-specific environments
+* Adopt a logical and consistent naming convention, a bit like a breadcrumb in a website, such as: Product_Page_Element_Status. Not every aspect of the naming convention will apply, but is always added, in order, where it does apply. For example, I only include “Product” if the same page/location exists in more than one product. An image will also often not include a “Status”, because this is for specific scenarios, like a feature being toggled on or off, or an option being selected. Examples:
+  * “Browse_Dropdown_View”, doesn’t require “Feedback” beforehand because the Browse page only exists in Feedback, but could be included for clarity.
+  * “Roadmap_Create” includes only the page/location and the selected element. If Roadmap ends up being a page in both Engage and Feedback, it would make sense to rename this example to “Feedback_Roadmap_Create”.
 
-## Spacing ##
-* Add an extra paragraph space/empty row at the end of a section before the next section header
-* Add an extra paragraph space/empty row after all screenshots
-* Do not add an extra paragraph space/empty row after a bulleted list, even if it’s the last thing before starting a new section, bulleted list styling does this automatically
 
-## Colored boxes ##
+## Spacing
+* Add an extra paragraph space/empty row at the end of a section before the next section header.
+* Add an extra paragraph space/empty row after all screenshots.
+* Do not add an extra paragraph space/empty row after a bulleted list, even if it’s the last thing before starting a new section, bulleted list styling does this automatically.
+
+
+
+## Colored callout boxes
 Boxes are created by editing the code in the Zendesk article and adding the CSS class to the HTML element manually. Adding the class will shade the background of the entire element with a thick border on the left side. You can add a new `<div` element to wrap multiple `[p]` or `[img]` elements if needed.
 
-### Yellow is important boxes ###
-`[class="notice"]`
+You have four types of callout boxes to choose from:
 
-They're always placed at the very beginning of the article for absolutely critical need to know information. Things that will break the feature, mess up data, legal disclaimers, that kind of stuff.
-
-### Red is warning boxes ###
-`[class="warning"]`
-
-They're similar to yellow but for one or two lines of emergency information that we can include in line with instructions.
-
-A way to distinguish the two is that yellow could be a collection of red boxes or yellow could be instead of red boxes so we don't have a bunch of red boxes interrupting the presentation of instructions or a narrative in the article. Breaking up the flow of text for a big colorful box is just bad UI. Yellow box fixes that. But if something already has a dedicated section in the article, like "Requirements" it doesn't need to be duplicated in the yellow box. Some information just needs to go at the beginning of an article, like a legal disclaimer, but throwing it in a red warning box is just way too harsh.
-
-### Green is note boxes ###
+### Green
 `[class="note"]`
 
-These are used for relevant callouts about how something works, how data is presented, or how features may interact with each other that need to be highlighted in the context of instructions but aren't really part of the narrative. Use them sparingly and try not to use them in the middle of a section. Again, bad UX to break up the flow of text with big colorful boxes. Historically, we use these way too much. Your first instinct should be to structure the body text better so that information can be included in the article instead of carved out into a notes box.
-For example, in the Resource Center Metrics article, there's a section that talks about Top Stats. The body of the paragraph talks about the different data, what they are, what they mean. Then a note points out how we get the number for "eligible visitors" and how funky situations with segmentation can give certain values.
+A green callout is typically used for a **Note**, with information that offers relevant context or that may affect what the user does, such as how data is presented, how features might interact, or options that may be available to particular users and not others.
 
-### Blue is tips boxes ###
+Use notes sparingly and try not to use them in the middle of a section so as not to break up the flow of text. Try instead to structure the body text so that information can be included in the article instead of carved out into a notes box.
+
+### Blue
 `[class="tip"]`
 
-This is like breaking the 4th wall and staring directly at the user to give them advice that we really wouldn't otherwise include in the KB. Like if you were sitting down with someone teaching them how to use something and they were just a little lost because there was some broader concept or informal advice they were missing. It's not as detailed as best practices. We're trying to stick to just academic content in the KB, explaining what the buttons due, and mostly how to use a feature with just enough why to have context. Best practices are mostly why with just enough how. Tips are an opportunity to add a little more why than we otherwise would. They usually come from feedback from CS or SEs. That little bit of extra knowledge for the folks that don't know what they don't know. We almost never use these, but when we do they make a huge impact.
-* For example, in the Localization article there's a tip that steps back from explaining set up for localization and talks about how companies establish formal teams or departments for localization and they use third-party tools to manage translation at scale. We even link to a couple third-party tools that we don't have a formal business relationship with. Without it, some poor Pendo admin is trying to figure out how they manually edit all of these translation files in the raw code for every guide without realizing that there's an entire industry full of professionals that do only this.
+A blue callout is typically used for a **Tip**, with information that the user might find useful, or that is likely to lead to an easier way of doing something, such as best practices for creating unique Visitor and Account IDs.
+
+Tips are an opportunity to add a little more why than we otherwise would, for people that don't know what they don't know. They usually come from feedback from CS or SMEs. We almost never use these.
+
+### Yellow
+`[class="notice"]`
+
+A yellow callout is typically used for an **Important** note or **Caution**, to recommend that the reader proceeds carefully, for example, “We don’t recommend …”.
+
+These are typically placed at the beginning of the article for critical information, such as things that will break the feature, things that will mess up data, and legal disclaimers. This is useful when we might otherwise have several red boxes interrupting the presentation of instructions or a narrative in the article.
+
+Some information, like a legal disclaimer or requirements just need to go at the beginning of an article. If something already has a dedicated section in the article, like "Requirements" it doesn't need to be duplicated in the yellow box.
+
+### Red
+`[class="warning"]`
+A red callout, typically used for a **Warning** or an **Important** note that is stronger than a recommendation, such as making the user aware of an irreversible destructive action or that the product is soon to reach End of Life (EoL).
+
 
 ## Basic Article Template ##
 
->[h2]Overview<br>
 >[p]What it is, what it does, basic value prop<br>
 >[p][/p] - empty line at the end of each section for spacing<br>
 >
->[h2]Requirements (in a bulleted list)<br>
+>[h2]Requirements [in a bulleted list]<br>
 >* User permissions<br>
 >* Minimum Agent or SDK version<br>
 >* Subscription-tier requirements<br>
@@ -105,7 +144,7 @@ This is like breaking the 4th wall and staring directly at the user to give them
 >[p][/p] - empty line after each answer for spacing<br>
 
 ## Detailed Article Template ##
->[h2]Overview[/h2]<br>
+
 >[p]The overview section consists of three parts: a definition of the feature, a description of everything the feature can do, and the value proposition explaining why the feature is important or what a user persona can do with it. The overview section quickly tells the users what the article is about and the type of information contained in the article. This helps a user figure out if they want to read the article at all or jump to a particular section.[/p]<br>
 >[p][/p]<br>
 >[img]hero image[/img]<br>
@@ -131,7 +170,7 @@ This is like breaking the 4th wall and staring directly at the user to give them
 >[p][/p]<br>
 >[p]**1. Instructions are a numbered list.** Don’t use the formatted numbered list. The formatting is too limiting and hard to use in Zendesk if we want to add details in a step.[/p]<br>
 >[p][/p]<br>
->**2. The number and action for each step is in bold.** It helps skim the instructions faster.[/p]<br>
+>[p]**2. The number and action for each step is in bold.** It helps skim the instructions faster.[/p]<br>
 >[p][/p]<br>
 >[p]**3. Screenshots in instructions should be small and show the relevant action or menu.** They should also be left justified. This helps them stand out from the centered context screenshots in other sections.[/p]<br>
 >  * Use a bulleted list to add details in a step, like context for a screenshot<br>

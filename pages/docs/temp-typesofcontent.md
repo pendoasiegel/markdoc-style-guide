@@ -3,9 +3,9 @@ title: Pendo | Content Types
 description: Pendo style guide types of content section
 ---
 
-The structure of individual articles depends on the content type and category. Is it an overview? Is the information more practical, such as how-to guidance or troubleshooting?
+# Content types
 
-## Types of content ##
+The structure of individual articles depends on the content type and category. Is it an overview? Is the information more practical, such as how-to guidance or troubleshooting?
 
 Help docs include different types of content, which can differ depending on the audience and the purpose of an article:
 
@@ -54,13 +54,15 @@ Troubleshooting articles address a specific problem that a customer is having an
 - Reasons why someone might run into the issue
 - Anchor links to specific solutions if there are more than one
 - Solutions and outcomes
-- Further reading: Links to related articles
+- Further reading: Links to related articl
+
+## Combining content types
 
 Often, informational and how-to content will come together to form a complete article with the context needed to understand features and tasks within a wider workflow. In the Pendo Help Center, this is typically an instructional (how-to) article.
 
 Use broad, outcome-agnostic titles that encapsulate the range of information and tasks contained within the article. Doing this helps reduce duplication and sets us up for scalability––being able to add more content as Pendo grows without renaming or replacing articles.
 
-### Order ###
+### Order
 
 For longer articles that combine different types, follow the guidance for [instructional content](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/temp-instructional), and aim to order content types in the following way:
 
@@ -80,36 +82,37 @@ For more information on headings, see [Headings and titles](https://main--cosmic
 
 ### Elements ###
 
+> **Note:** The table format for this example doen't allow for paragraphing or bullet points within cells and so this example can't follow all ProdOps Style Guide guidelines. The following example is to help you understand content and ordering for an informational article.
+
 The above is the standard order of content. An article includes required, conditional, and optional content. For an instructional article:
 
 |Element|Description|Example|
 |---|---|---|
-|Title [required]	|	|**Pendo Roadmap [H1]**|
+|Title [H1] [required]	|	|**Pendo Roadmap**|
 |Introductory paragraph [required]	|Provides context and set expectations, allowing readers to decide if the page is relevant to them.|Pendo Roadmap is a communication tool that helps you visualize and share your product vision with internal teams. You can show how customer requests align with themes of work, and demonstrate how you're using data and insights collected in Pendo Feedback to inform your roadmap.|
 |Product callout [optional]	|Highlight important information about the product or feature (such as when it’s available) that isn’t directly related to how the product works.	|**Important:** We’re fully transitioning our customers to the newest version of our roadmapping tool in July, 2022. Due to high demand, Roadmaps Beta will be available for some customers on May 10th, 2022, which will include most of the new functionality of our roadmapping tool.|
 |Overview [required]|Summarize functionality of the product or feature.| The newest version of Roadmap (Beta) extends the capabilities of our original roadmapping tool. We’ve been working hard to offer you a better user experience of Roadmaps, with drag-and-drop functionality, UI interactions that allow you to quickly reference details without leaving the page, a backlog where you can add and remove requests, features, and initiatives with flexibility, and customer value and votes data for the items you place on your roadmap.|
-|Conceptual content heading||**Roadmap functionality [H2]**|
+|Conceptual content heading [H2]||**Roadmap functionality**|
 |Conceptual content, such as functionality or helpful, high-level info about how the product or feature works [optional]|Additional information that will help the user understand what to expect from a product or feature.|Pendo Roadmap is a flexible tool that can be used in different ways. You can show broad themes of work you plan on delivering in coming quarters to leadership, communicate what’s coming with sales who can then get prospects excited about where you’re heading, and close the loop with customers who are interested in what you’re building next.
-|Conceptual content heading	|   |**Timeframe [H3]**|
-|Conceptual content   |   |[Informational content](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/temp-informational)|
-|Conceptual content heading	|   |**Grouping and hierarchies [H3]**|
-|Conceptual content   |   |[Informational content](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/temp-informational)|
-|Conceptual content heading	|   |**Backlog [H3]**|
-|Conceptual content   |   |[Informational content](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/temp-informational)|
-|Conceptual content heading	|   |**Roadmap visibility [H3]**|
-|Conceptual content   |   |[Informational content](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/temp-informational)|
-| Referential content heading  |   |**Prerequisites [H2]**|
+|Heading [H3]|   |**Timeframe**|
+|Conceptual content   |   |[[Informational content](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/temp-informational)]|
+|Heading [H3]|   |**Grouping and hierarchies**|
+|Conceptual content   |   |[[Informational content](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/temp-informational)]|
+|Heading [H3]	|   |**Backlog**|
+|Conceptual content   |   |[[Informational content](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/temp-informational)]|
+|Heading [H3]|   |**Roadmap visibility**|
+|Conceptual content   |   |[[Informational content](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/temp-informational)]|
+| Referential content heading [H2] |   |**Prerequisites**|
 |Pre-requisites and permissions [conditional]|Information the reader should know before getting started.| You must have a Pendo Feedback subscription to access our roadmapping tool. To enable Pendo Feedback, you must first install the Pendo snippet. The snippet is the code that enables Pendo products to launch in your application. For more information about the Pendo snippet, see [link name].
-|Procedural content Heading| | **Create a roadmap [H2]**|
-|Procedural content|   |[Walkthrough of the individual steps a user must take to complete a task or set of tasks. If there are several tasks, order them logically (find > create > edit > manage > delete)].|
-|Procedural content Heading| | **Populate your roadmap [H2]**|
-|Procedural content|   |[Procedural instructions](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/procedural-instructions).|
-|Procedural content Heading| | **Edit an existing roadmap [H2]**|
-|Procedural content|   |[Procedural instructions](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/procedural-instructions).|
-|Procedural content Heading| | **Delete an initiative or feature from the backlog [H2]**|
-|Procedural content|   |[Procedural instructions](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/procedural-instructions).|
-|Troubleshooting content [conditional]|Issue diagnosis and/or troubleshooting steps|NA|
-|Further reading or next steps [conditional]|   |NA|
+|Procedural content Heading [H2]| | **Create a roadmap**|
+|Procedural content|Walkthrough of the individual steps a user must take to complete a task or set of tasks. If there are several tasks, order them logically (find > create > edit > manage > delete)|[[Procedural instructions](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/procedural-instructions).]|
+|Procedural content Heading [H2]| | **Populate your roadmap**|
+|Procedural content|   |[[Procedural instructions](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/procedural-instructions).]|
+|Procedural content Heading [H2]| | **Edit an existing roadmap**|
+|Procedural content|   |[[Procedural instructions](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/procedural-instructions).]|
+|Procedural content Heading [H2]| | **Delete an initiative or feature from the backlog**|
+|Procedural content|   |[[Procedural instructions](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/procedural-instructions).]|
+|Troubleshooting content [H2] [conditional]|Issue diagnosis and/or troubleshooting steps|NA|
 
 ## General writing guidelines
 

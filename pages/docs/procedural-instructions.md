@@ -11,7 +11,7 @@ Procedural instructions should ddress the reader directly and focus on what matt
 
 Use the second person singular, with “you” as its implied subject rather than "the customer", "the administrator", or "the user". For example:
 
-> "This article describes how ~~the user~~ *you* can...""
+> "This article describes how ~~the user~~ *you* can...
 
 ## Present tense
 
@@ -25,7 +25,7 @@ Sentences that use the active voice and imperative mood are the most efficient w
 
 Use the imperative mood for instructions by writing these sentences as commands, starting with an action verb. For example:
 
-> “~~You can~~ Manually set your ARR by...”.
+> "~~You can~~ Manually set your ARR by..."
 
 Sentences written in the imperative moode tend to also be active, where the implied subject of the sentence performs the action. For example:
 
@@ -39,7 +39,7 @@ It’s good practice to avoid talking about mouse and keyboard actions. Instead,
 
 In general, use “select”, to instruct the reader to click on an item, like text, objects, or cells, and use “enter” to instruct the reader to type something into a text field.  For example:
 
-> " ~~Click~~ Select the relevant status and ~~type in~~ enter the response.
+> "~~Click~~ Select the relevant status and ~~type in~~ enter the response.
 
 To further hone in on user actions, try starting sentences with a verb. For example, instead of "We enable users to access emails through the browser":
 

@@ -23,9 +23,9 @@ const items = [
    title: 'Article Templates',
    links: [{href: '/docs/temp-typesofcontent', children: 'Content Types'},
            {href: '/docs/temp-kb', children: 'Help Center Articles'},
-           {href: '/docs/temp-informational', children: 'Informational Article'},
-           {href: '/docs/temp-instructional', children: 'Instructional Article'},
-           {href: '/docs/temp-troubleshooting', children: 'Troubleshooting Article'}]
+           {href: '/docs/temp-informational', children: 'Informational Content'},
+           {href: '/docs/temp-instructional', children: 'Instructional Content'},
+           {href: '/docs/temp-troubleshooting', children: 'Troubleshooting Content'}]
  },
  {
    title: 'Appendix',
