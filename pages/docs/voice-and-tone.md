@@ -5,6 +5,12 @@ description: Pendo style guide product voice and tone guidance
 
 # Voice and Tone
 
+Voice captures the persona behind the content or its “character”. Voice should be delivered with consistency across content. If your personality or messaging change too much or too often, it’s harder for readers to understand the purpose of the content or to trust it.
+
+Tone captures the “attitude” with which we express our content. This is similar to the difference between “traits” and “states” in human psychology. You can be a friendly person (a trait), but also exhibit more or less friendliness (as a transient state) depending on the situation or who you’re interacting with. In this example, “trait” corresponds with “voice”, and “state” corresponds with “tone”.
+
+## The Pendo Voice
+
 The general guidelines in the [Pendo Brand Voice and Style Guide](https://docs.google.com/presentation/d/1NA5n3Ac5lWPzANcUE7vVbaYnEcP1fDpkNK6RB7fpFlQ/edit#slide=id.g10f0d2d600c_0_1) are that we should sound:
 
 **Friendly.** Speak to readers like smart, informed people, and look for ways to better relate to our audience, improve their experience, and help them achieve their goals. To this end, our writing should be:
@@ -28,49 +34,43 @@ The general guidelines in the [Pendo Brand Voice and Style Guide](https://docs.g
 *  Hopeful
 *  Authoritative
 
-On top of this, we aim to adopt our own *tone* of voice in the Help Center.
+## Our Tone of Voice
 
-## What are voice and tone?
+On top of the Pendp Voice, we aim to adopt our own *Tone* of Voice in the Help Center.
+Our Tone of Voice is based on the purpose of Help Center content and the intended audience.
 
-Voice captures the persona behind the content or its “character”. Voice should be delivered with consistency across content. If your personality or messaging change too much or too often, it’s harder for readers to understand the purpose of the content or to trust it.
+In help documentation, it’s particularly important to avoid fatigue and frustration. We want the content to be as useful and as understandable as possible for getting the job done––as quickly as possible. To this end, we aim to write for the immediate goals of the reader, in plain (American) English, and with short, direct sentences. This helps us meet three high-level goals for our Tone of Voice:
 
-Tone captures the “attitude” with which we express our content. This is similar to the difference between “traits” and “states” in human psychology. You can be a friendly person (a trait), but also exhibit more or less friendliness (as a transient state) depending on the situation or who you’re interacting with. In this example, “trait” corresponds with “voice”, and “state” corresponds with “tone”.
-
-## Our tone of voice
-
-Our tone of voice is based on the purpose of content and the intended audiences.
-
-In help documentation, it’s particularly important to avoid fatigue and frustration. We want the content to be as useful and as understandable as possible for getting the job done – as quickly as possible. To this end, we aim to write for the immediate goals of the reader, in plai (American) English, and with short, direct sentences. This helps us meet three high-level goals for our tone of voice:
-
-**Be clear**
+**Be clear.** Present content in a way that's easy to read and understand. Consider how your content looks as well as what it says. To this end, our writing should be:
 
 * Direct
 * Simple
 * Precise
 * Concise
 
-**Be human**
+**Be human.** Adopt an informal yet professional tone with your word choice and sentence structure. Consider the human meaning of words and phrases, and be sensitive to the reader's state and goals. To these ends, our content should be:
+
 * Conversational
 * Personal
 * Positive
 * Inclusive
 
-**Be useful**
+**Be useful.** Write with the user journey in mind to create content that's relevant and meaningful for them. To this end, our writing should be:
 
 * Objective
 * User-centric
 * Action-oriented
 * Goal-focused
 
-Some of the guidelines for meeting these goals overlap. For example, using the second person (“you”) makes it easier to write in the active voice (be clear), helps establish a conversational style (be human), and makes the content directly relevant to the reader (be useful).
+> **Note:**
+>
+> Some of the guidelines for meeting these goals overlap. For example, using the second person (“you”) makes it easier to write in the active voice (be clear), helps establish a conversational style (be human), and makes the content directly relevant to the reader (be useful).
 
 ### Be clear
 
-Keep sentences short and simple with lean writing principles. Reduce wordiness and ambiguity about who or what initiates an action, especially in procedural steps, by using the second person with the imperative mood and active voice.
+Keep sentences short and simple with lean writing principles. Reduce wordiness and ambiguity about who or what initiates an action, especially in procedural steps, by using the second person with the imperative mood and active voice. Other tips for writing clearly include:
 
-Other tips for writing clearly include:
-
-*  Use plain English.
+*  Use plain (American) English.
 *  Use simple words where possible.
 *  Break up content to make it more scannable.
 *  Break up sentences into separate thoughts.
@@ -83,16 +83,15 @@ Avoid:
 *  Technical jargon.
 *  Culture-specific references (idioms, colloquial language, regionalisms, and slang).
 *  Phrases with indirect or ironic meaning.
-*  Humour, which can be misinterpreted or irritating.
-* Ambiguous terms.
+*  Humor, which can be misinterpreted or irritating.
+*  Ambiguous terms, like "may", which can communicate a possibility or permission.
 
 ### Be human
 
-Keep your style informal and natural, even if relaying technical information to more tech-savvy users. You can write informally without losing the objectivity and credibility needed for technical documentation. Professional is not the same as formal.
+Talk *to* the reader, not at the reader. Keep your style informal and natural, even if relaying technical information to more tech-savvy users. You can write informally without losing the objectivity and credibility needed for technical documentation––professional isn't the same as formal.
 
 *  Use simple, everyday language.
 *  Be direct and conversational.
-*  Use the second person ("you").
 *  Adopt an informal and personal style.
 *  Be friendly and positive.
 *  Use common contractions.
@@ -106,11 +105,8 @@ Avoid:
 
 ### Be useful
 
-Make it obvious why content is relevant to the reader or user, and how they can act on it. You can do this by starting sentences with a verb and using the imperative mood, such as "Access you emails through the browser", instead of "We enable users to access emails through the browser".
+Make it obvious why content is relevant to the reader or user, and how they can act on it. Make your content about the reader or user. Refer directly to the reader and hone in on the user’s actions.
 
-Make your content about the reader or user. Refer directly to the reader and hone in on the user’s actions.
-
-* Use the active voice, where the subject of the sentence performs the action (subject + verb + object construction).
 * Get to the point.
 * Focus on user goals.
 * Suggest next steps.

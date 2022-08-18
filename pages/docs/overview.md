@@ -13,7 +13,7 @@ Other good sources of guidance, if this style guide is ever lacking, are the [Mi
 
 We also have a [shareable slide deck](https://docs.google.com/presentation/d/1ZUj_H7fWqGOwlQepEEc1WC2Rg7IXpHAYjbWZJlRGMLQ/edit?usp=sharing) that summarizes the main rules you need to follow for writing help documentation.
 
-## Who are we?
+## Who are we and what do we do?
 
 We are technical writers. Technical writers are concerned with designing the digital experience of product information––how information is formed, organized, delivered, and presented.
 
@@ -28,18 +28,22 @@ The aim is to optimize how people engage with information to maximize the user e
 
 ## What is the Style Guide for?
 
-We want to ensure that information is meaningful, accurate, user-friendly, and formatted appropriately, whether that’s part of technical documentation or in the product itself.
-
-Following a set of writing guidelines helps ensure consistency, content quality, and a good user experience of product documentation and UI content.
+We want to ensure that information is meaningful, accurate, user-friendly, and formatted appropriately, whether that’s part of help documentation or in the product itself. Following a set of writing guidelines helps ensure consistency, content quality, and a good user experience of help documentation and UI content.
 
 The ProdOps Style Guide isn’t a complete list of every language, grammar, or formatting rule and convention. The style guide is designed to deal with common scenarios and to recommend best practices for help documentation and in-product content.
 
 ## Where do you start?
 
-For a summary of Pendo's foundational guidance on presenting Pendo in online content, see [Brand Guidance](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/brand)
+This resource is referential, meaning you should be able to navigate to contents that are most relevant to you based on your needs, rather than reading it from beginnning to end.
 
-For a summary of Pendos "Voice" and how the ProdOps "Tone of Voice" builds on that, see "[Product Voice and Tone](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/voice-and-tone).
+* **Brand Wtriting Style.** For a summary of Pendo's foundational guidance on presenting Pendo in online content, see [Brand Guidance](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/brand).
 
-To jump straight into our Style Guide, see [ProdOps Style Guide](///).
+* **Tone of Voice.** For a summary of Pendo's "Voice" and how the ProdOps "Tone of Voice" builds on that, see "[Product Voice and Tone](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/voice-and-tone).
+
+* **ProdOps Style Guide.** To jump straight into our Style Guide, see [ProdOps Style Guide](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/prodops-style-guide). This builds upon, and is complementary to, our Tone of Voice.
+
+* **Writing Instructional Content.** To learn about rules that are specific to writing step-by-step instructions in help documentation, see [Procedural Instructions](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/procedural-instructions).
+
+* **UX Writing.** To learn about rules that are specific to creating in-product content (content design), see [UX writing](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/style-ux).
 
 We also offer the following templates:
