@@ -120,3 +120,15 @@ Avoid:
 * Blaming the reader or user.
 * Redundancy and repetition.
 * Taking a system-centric approach to communicating with users (“Unexpected item in bagging area”).
+
+## Politeness
+
+Be considerate, not over-polite––whether writing for the Help Center or for in-product text. This means putting the needs of of the reader or user first with enough information to help the user in their workflow. For example, an error message that says “Sorry! There was a generic error” is polite, but not especially useful because it focuses on its own function, and not what the reader or user needs to do.
+
+Avoid overusing “please”, “thank you”, and “sorry”, especially for normal operations of the program. Adding these phrases might be polite, but they can seem disingenuous and slow users down with wordiness.
+
+|Term|When to use (example)|When not to use (example)|
+|---|---|---|
+|**Please.** Use “please” only in situations where you’re asking someone to do something inconvenient or where the software is at fault.|“Our system is down. Please try again later.” |“To view the file, ~~please~~ select **View**.”|
+|**Thank you.** Use “thank you” when you’re asking someone to provide input that’s inconvenient. Convey gratitude from the people behind the documentation or product rather than the system itself.	|“Thank you for giving us your feedback!”	|“Check that you’ve entered your email address correctly before submitting. ~~Thank you.~~”|
+|**Sorry.** Use “sorry” only in situations that cause problems for the user, such as a system crash or data loss. Don’t apologise for how the product or service is designed to function.|"Sorry. Something went wrong."|"~~Sorry.~~ Your subscription expired.""|

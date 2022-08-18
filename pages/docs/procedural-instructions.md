@@ -49,7 +49,7 @@ Use action verbs where possible. For example:
 
 > “If you ~~don't have~~ can’t *find* the Browse page, check that you’re in the right subscription."
 
-## Use bold to emphasize UI elements
+## Emphasis
 
 For visual clarity and scannability, reserve **bold** for emphasizing UI and navigational elements in instructional content. For example:
 
@@ -71,7 +71,7 @@ Both italics and quotation marks should be avoided in help documentation, especi
 
 * Only use quotation marks ("") to quote blocks of text. Blocks of text aren't typically present in help documentation.
 
-## Use progressive disclosure
+## Progressive disclosure
 
 Use progressive disclosure to introduce concepts in the order in which the reader deals with them, revealing only essential information for each task. This avoids overwhelming the user and helps them manage complexity. For example:
 
@@ -85,7 +85,7 @@ Some guidelines include:
 
 * Provide only the necessary information for the user to take each action, one at a time.
 
-## Follow a logical sequence
+## Sequence
 
 In step-by-step instructions, refer to a full sequence of UI steps, in order, rather than as part of convoluted sentences. For example, rather than:
 
@@ -124,7 +124,7 @@ Not all steps require an image. You could introduce the task and an image (both 
 
 If not already clear, introduce what a set of instructions will achieve before describing them so that readers can skip over irrelevant information. For example, “To create a shareable link, navigate to the top menu and select **File > Share > Copy Link**”.
 
-## Provide context
+## Context
 
 Help readers find and read only the content that's relevant to the task at hand by providing the necessary context upfront. Readers shouldn't need to consume a whole article, section, or even a whole sentence to determine if the information they're about to read is what they need or where they need to be in the UI to complete an action.
 
@@ -144,9 +144,9 @@ This applies to the steps themselves, where you should mention the UI element be
 
 >  "1. From the dropdown menu, select the type of alert you want to send."
 
-## Use callouts sparingly
+## Callouts
 
-Use callouts to give readers important or useful information that isn't part of the flow of the text.
+Use callouts sparingly to give readers important or useful information that isn't part of the flow of the text.
 
 Callouts can be a distraction, break up the flow of instructions, and can lose their visual distinctiveness when you use them too often.
 
@@ -156,9 +156,9 @@ Avoid grouping more than one callout together.
 
 Before creating a callout, consider whether it’s needed. Avoid adding callouts as a solution for including text that doesn’t fit the flow of the instructions.
 
-## Use images intentionally
+## Images
 
-Too many images, and images that are too large, make content harder to read, while white space makes content more legible. Images can lead to frustration if the user can’t find the element or functions you’re trying to depict in the image. To avoid frustration and increase usability:
+Use images intentionally. Too many images, and images that are too large, make content harder to read, while white space makes content more legible. Images can lead to frustration if the user can’t find the element or functions you’re trying to depict in the image. To avoid frustration and increase usability:
 
 * Balance the number and size of images against the amount of text that surrounds it.
 
