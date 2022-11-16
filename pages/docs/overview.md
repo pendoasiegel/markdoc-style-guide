@@ -38,7 +38,7 @@ This resource is referential, meaning you should be able to navigate to contents
 
 * **Brand Writing Style.** For a summary of Pendo's foundational guidance on presenting Pendo in online content, see [Brand Guidance](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/brand).
 
-* **Tone of Voice.** For a summary of Pendo's "Voice" and how the ProdOps "Tone of Voice" builds on that, see "[Product Voice and Tone](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/voice-and-tone).
+* **Tone of Voice.** For a summary of Pendo's "Voice" and how the ProdOps "Tone of Voice" builds on that, see [Product Voice and Tone](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/voice-and-tone).
 
 * **ProdOps Style Guide.** To jump straight into our Style Guide, see [ProdOps Style Guide](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/prodops-style-guide). This builds upon, and is complementary to, our Tone of Voice.
 
