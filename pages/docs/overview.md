@@ -36,7 +36,7 @@ The ProdOps Style Guide isn’t a complete list of every language, grammar, or f
 
 This resource is referential, meaning you should be able to navigate to contents that are most relevant to you based on your needs, rather than reading it from beginnning to end.
 
-* **Brand Wtriting Style.** For a summary of Pendo's foundational guidance on presenting Pendo in online content, see [Brand Guidance](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/brand).
+* **Brand Writing Style.** For a summary of Pendo's foundational guidance on presenting Pendo in online content, see [Brand Guidance](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/brand).
 
 * **Tone of Voice.** For a summary of Pendo's "Voice" and how the ProdOps "Tone of Voice" builds on that, see "[Product Voice and Tone](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/voice-and-tone).
 

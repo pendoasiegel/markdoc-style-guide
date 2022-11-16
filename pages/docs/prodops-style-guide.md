@@ -114,6 +114,37 @@ For example:
 
 This helps readers recognize step-by-step instructions and helps you maintain consistency across articles.
 
+### Frequently Asked Questions (FAQs)
+
+FAQs are poor customer service because they create more work for readers:
+*  Questions are longer and harder to scan than headings.
+*  We can’t “frontload” questions with terms that most people are looking for.
+*  FAQs are provided out of context.
+*  FAQs create duplication in search results.
+*  Readers don’t always word questions in the same way we’ve presented them.
+*  A list of questions is a friction-heavy experience, where the customer has to dig through many questions to find an answer to one question.
+
+Information is more effective for the reader when it’s in context and pre-emptively answers questions that would otherwise cause people to search in FAQs.
+
+FAQs also set the wrong tone because they’re typically sought when the documentation or customer journey has failed.
+
+#### Restructure your content before adding FAQs
+
+FAQs tend to become a “dumping ground” of information that fails to take into account the user experience.
+
+Most FAQs aren’t really “frequently asked” but, rather, indicate that the company hasn’t put in the effort to make the documentation easy to follow or to optimize the customer journey (or both).
+
+If a question really is frequently asked, you likely need to add or restructure the content. Often, the perceived need for FAQs actually indicates that readers can’t find what they need where they’d reasonably expect to find it in the help documentation.
+
+#### Considerations for when you do use FAQs
+
+*  Only include questions that are actually frequently asked. Don’t assume what customers might ask.
+*  Don’t use an FAQ section to defend shortcomings or as a substitute for good documentation.
+*  Don’t include vanity questions. These are for marketing, not help documentation or the UI.
+*  Provide detailed, meaningful answers to specific questions based on what readers need to know.
+*  Spell out “Frequently Asked Questions”, rather than relying of on initialism (FAQ).
+*  Keep FAQs specific to your product or article.
+
 ## Adopt lean writing principles
 
 Write content with lean writing principles in mind––removing unnecessary words and keeping sentences simple. This should make content easier to find, scan, read, and use. General guidelines include:
