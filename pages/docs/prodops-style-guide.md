@@ -1,9 +1,9 @@
 ---
-title: Pendo | ProdOps Style Guide
+title: Pendo | Product Style Guide
 description: Pendo style guide
 ---
 
-# ProdOps Style Guide
+# Product Style Guide
 
 Regardless of whether you’re creating help documentation or designing UI content, there are four high-level content guidelines for creating a good information experience.
 

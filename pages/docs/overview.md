@@ -40,10 +40,8 @@ This resource is referential, meaning you should be able to navigate to contents
 
 * **Tone of Voice.** For a summary of Pendo's "Voice" and how the ProdOps "Tone of Voice" builds on that, see [Product Voice and Tone](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/voice-and-tone).
 
-* **ProdOps Style Guide.** To jump straight into our Style Guide, see [ProdOps Style Guide](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/prodops-style-guide). This builds upon, and is complementary to, our Tone of Voice.
+* **Prodduct Style Guide.** To jump straight into our Style Guide, see [Product Style Guide](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/product-style-guide). This builds upon, and is complementary to, our Tone of Voice.
 
 * **Writing Instructional Content.** To learn about rules that are specific to writing step-by-step instructions in help documentation, see [Procedural Instructions](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/procedural-instructions).
 
 * **UX Writing.** To learn about rules that are specific to creating in-product content (content design), see [UX writing](https://main--cosmic-travesseiro-d1f80c.netlify.app/docs/style-ux).
-
-We also offer the following templates:
